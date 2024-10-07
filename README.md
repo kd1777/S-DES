@@ -33,7 +33,10 @@ GUI.java：程序的图形用户界面实现。
 S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
 
 二、测试结果
-第1关：基本测试   根据S-DES算法编写和调试程序，提供GUI解密支持用户交互。输入可以是8bit的数据和10bit的密钥，输出是8bit的密文。
+
+第1关：基本测试   
+
+根据S-DES算法编写和调试程序，提供GUI解密支持用户交互。输入可以是8bit的数据和10bit的密钥，输出是8bit的密文。
 
 ![d786d4218b3f824a17fcd47698d8cf48](https://github.com/user-attachments/assets/ea774984-a6c0-411d-825e-25d3eb4df88a)
 
