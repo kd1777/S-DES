@@ -31,6 +31,7 @@ java GUI
 代码结构
 GUI.java：程序的图形用户界面实现。
 S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
+test.java：用于测试算法。
 
 二、测试结果
 
@@ -43,11 +44,23 @@ S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
 ![24f0752553417d4c3441b02cbd3dfd2c](https://github.com/user-attachments/assets/3e20cec0-f713-4b43-90fe-41298e332dd5)
 
 第2关：交叉测试
+（1）
 神里凌华的狗组测试结果（与第一关测试的对比）
+
 ![df806a4a756a2fc01472d940af0ca805](https://github.com/user-attachments/assets/945b6cb4-7f70-4868-b461-e4ba3e03fcc6)
 
+（2）
+本组测试结果
 
+![a079351fe2a39793ddd3d71c6ed7a25](https://github.com/user-attachments/assets/95628287-dc20-4dde-87d6-7ee21fb413f0)
 
+![259c492b7aea7300bb8cb62699a9b40](https://github.com/user-attachments/assets/69c6c8ee-be4f-4c90-811d-bb048a58f19d)
+
+唐欣然组测试结果
+
+![11431c336edf4c3db98f6c5ce16b86b](https://github.com/user-attachments/assets/d841e869-f92f-40f3-94b7-2cb4a9f3c78d)
+
+![a248beb86e497f0358ce4cc5f583552](https://github.com/user-attachments/assets/2792fca7-dd24-46d3-8787-eb5e3a773272)
 
 
 第3关：扩展功能
@@ -60,6 +73,8 @@ S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
 
 使用遍历进行暴力破解，均在1s内完成。
 
+test.java内的test04方法测试结果如下：
+
 ![image](https://github.com/user-attachments/assets/968554f9-3c0c-4ab3-9d30-b4c98b5e47a9)
 
 ![image](https://github.com/user-attachments/assets/4f7a0b17-8f05-4af7-b07c-1c2629dc0cf8)
@@ -67,6 +82,9 @@ S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
 第5关：封闭测试
 
 对应明文空间任意给定的明文分组，会出现选择不同的密钥加密得到相同密文的情况。
+
+test.java内的test05方法测试结果如下：
+
 
 ![image](https://github.com/user-attachments/assets/a4304c9f-8144-41f9-a1d1-e6700b65699e)
 
