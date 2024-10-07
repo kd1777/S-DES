@@ -43,8 +43,12 @@ S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
 ![24f0752553417d4c3441b02cbd3dfd2c](https://github.com/user-attachments/assets/3e20cec0-f713-4b43-90fe-41298e332dd5)
 
 第2关：交叉测试
-
+神里凌华的狗组测试结果（与第一关测试的对比）
 ![df806a4a756a2fc01472d940af0ca805](https://github.com/user-attachments/assets/945b6cb4-7f70-4868-b461-e4ba3e03fcc6)
+
+
+
+
 
 第3关：扩展功能
 
