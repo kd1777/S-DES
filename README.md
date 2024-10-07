@@ -34,19 +34,33 @@ S_DES.java：S-DES 算法的核心实现，包含加密和解密的逻辑。
 
 二、测试结果
 第1关：基本测试   根据S-DES算法编写和调试程序，提供GUI解密支持用户交互。输入可以是8bit的数据和10bit的密钥，输出是8bit的密文。
+
 ![d786d4218b3f824a17fcd47698d8cf48](https://github.com/user-attachments/assets/ea774984-a6c0-411d-825e-25d3eb4df88a)
+
 ![24f0752553417d4c3441b02cbd3dfd2c](https://github.com/user-attachments/assets/3e20cec0-f713-4b43-90fe-41298e332dd5)
+
 第2关：交叉测试
+
 ![df806a4a756a2fc01472d940af0ca805](https://github.com/user-attachments/assets/945b6cb4-7f70-4868-b461-e4ba3e03fcc6)
+
 第3关：扩展功能
+
 ![image](https://github.com/user-attachments/assets/e304939b-3cdf-428e-89eb-4fde9f6817f9)
+
 ![image](https://github.com/user-attachments/assets/5a84701a-f57c-491f-99a0-a70d7d7290d1)
+
 第4关：暴力破解
+
 使用遍历进行暴力破解，均在1s内完成。
+
 ![image](https://github.com/user-attachments/assets/968554f9-3c0c-4ab3-9d30-b4c98b5e47a9)
+
 ![image](https://github.com/user-attachments/assets/4f7a0b17-8f05-4af7-b07c-1c2629dc0cf8)
+
 第5关：封闭测试
+
 对应明文空间任意给定的明文分组，会出现选择不同的密钥加密得到相同密文的情况。
+
 ![image](https://github.com/user-attachments/assets/a4304c9f-8144-41f9-a1d1-e6700b65699e)
 
 
